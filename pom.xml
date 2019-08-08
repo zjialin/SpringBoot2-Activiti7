@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zjialin.workflow</groupId>
     <artifactId>SpringBoot2-Activiti7</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>SpringBoot2-Activiti7</name>
 
 
