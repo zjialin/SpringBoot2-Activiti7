@@ -28,7 +28,7 @@ import java.util.Map;
 @RestController
 @Api(tags = "启动流程实例")
 @Slf4j
-public class ProcessStartController extends BaseController {
+public class StartController extends BaseController {
 
 
     @PostMapping(path = "start")
