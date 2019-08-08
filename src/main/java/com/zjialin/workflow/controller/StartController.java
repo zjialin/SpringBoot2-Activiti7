@@ -48,7 +48,6 @@ public class StartController extends BaseController {
             restMessage = RestMessage.fail("启动失败", e.getMessage());
             log.error("根据流程key启动流程,异常:{}", e);
         }
-
         if (instance != null) {
             Map<String, String> result = new HashMap<>();
             // 流程实例ID
