@@ -1,4 +1,8 @@
-1.关于25张表解释
+1：本项目集成了springboot7+activti7+流程设计器一体
+2：修改application.properties 里面数据库配置即可启动
+3：设计器访问地址：http://localhost:port/activiti/create
+4：接口地址：http://localhost:port/doc.html
+4：关于表解释
     Activiti的后台是有数据库的支持，所有的表都以ACT_开头。 第二部分是表示表的用途的两个字母标识。 用途也和服务的API对应。
     ACT_RE_*: 'RE'表示repository。 这个前缀的表包含了流程定义和流程静态资源 （图片，规则，等等）。
     ACT_RU_*: 'RU'表示runtime。 这些运行时的表，包含流程实例，任务，变量，异步任务，等运行中的数据。 Activiti只在流程实例执行过程中保存这些数据， 在流程结束时就会删除这些记录。 这样运行时表可以一直很小速度很快。
@@ -26,3 +30,8 @@
     通用数据表
     1) act_ge_bytearray二进制数据表
     2) act_ge_property属性数据表存储整个流程引擎级别的数据,初始化表结构时，会默认插入三条记录
+    
+    
+    
+    
+    
